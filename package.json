@@ -1,6 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "backend setup",
+  "type": "module",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/VrushabhVeer/backend-setup.git",
+  "author": "Vrushabh Veer",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
